@@ -81,6 +81,19 @@ owner commands
   ctx.reply(help_text)
 })
 
+bot.hears('/register', (ctx) => {
+  let code = getMemberData(ctx.update.message.from.id)
+  if (code.register == true) {
+    ctx.reply("Alredy registered!!")
+  } else {
+    createMembersData(
+      ctx.update.message.from.id, 
+      ctx.update.message.from.username,
+      ctx.update.message.from.first_name
+       )
+    ctx.reply("Successfully Regsitered!")
+  }
+})
 
 bot.launch()
     }
