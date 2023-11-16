@@ -7,9 +7,9 @@ Features:
 - For **any** level of developer's knowledge and technical expertise;
 
 > [!NOTE]
-> To give you a full understanding of the project, we have recorded a short 📺 [video][gowebly_youtube_video_url] and prepared an introduction 📝 [article][gowebly_devto_article_url] demonstrating the main features of the **Gowebly** CLI.
+> To give you a full understanding of the project, we have recorded a short 📺 [video][] and prepared an introduction 📝 [article][] demonstrating the main features of the **Gowebly** CLI.
 
 ## ⚡️ Quick start
 
-First, [download][go_download_url] and install **Nodejs**. Version `17` (or higher) is required.
+First, [download][] and install **Nodejs**. Version `17` (or higher) is required.
 
